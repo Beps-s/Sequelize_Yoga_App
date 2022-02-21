@@ -4,44 +4,44 @@ module.exports = {
   async up (queryInterface, Sequelize) {
     return Promise.all([
       queryInterface.bulkInsert('ArticleTags', [{
-        articleId:37,
-        tagId:15,
+        articleId:43,
+        tagId:29,
         createdAt: new Date(),
         updatedAt: new Date()
       }]),
       queryInterface.bulkInsert('ArticleTags', [{
-        articleId:37,
-        tagId:16,
+        articleId:43,
+        tagId:30,
         createdAt: new Date(),
         updatedAt: new Date()
       }]),
       queryInterface.bulkInsert('ArticleTags', [{
-        articleId:39,
-        tagId:15,
+        articleId:45,
+        tagId:29,
         createdAt: new Date(),
         updatedAt: new Date()
       }]),
       queryInterface.bulkInsert('ArticleTags', [{
-        articleId:39,
-        tagId:17,
+        articleId:45,
+        tagId:31,
         createdAt: new Date(),
         updatedAt: new Date()
       }]),
       queryInterface.bulkInsert('ArticleTags', [{
-        articleId:38,
-        tagId:18,
+        articleId:44,
+        tagId:32,
         createdAt: new Date(),
         updatedAt: new Date()
       }]),
       queryInterface.bulkInsert('ArticleTags', [{
-        articleId:38,
-        tagId:19,
+        articleId:44,
+        tagId:33,
         createdAt: new Date(),
         updatedAt: new Date()
       }]),
       queryInterface.bulkInsert('ArticleTags', [{
-        articleId:38,
-        tagId:20,
+        articleId:44,
+        tagId:34,
         createdAt: new Date(),
         updatedAt: new Date()
       }])
