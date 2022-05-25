@@ -7,7 +7,7 @@ chai.use(chaiHttp);
 describe('Creating and deleting article POST', () => {
 
 	it('Create article with correct data', (done) => {
-		var url = "http://localhost:3000"
+		var url = "http://localhost:8080"
 
 		chai.request(url).post('/admin/article/create')
 			.send({ id: 90,
@@ -23,7 +23,7 @@ describe('Creating and deleting article POST', () => {
 	})
 
 	it('Delete article', (done) => {
-		var url = "http://localhost:3000"
+		var url = "http://localhost:8080"
 
 		chai.request(url).post('/admin/article/delete/10')
 			.end(function(err, res){
